@@ -46,7 +46,7 @@ function Test() {
       <p className="mb-4 text-gray-600">현재 6개의 상품이 있습니다.</p>
 
       {/* 상품 목록 */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+      <div className="gQrid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         {products.map((item, index) => (
           <div key={index} className="border rounded-xl shadow-sm p-3 bg-white flex flex-col">
             {/* 이미지 영역 */}
